@@ -12,6 +12,12 @@
 
 ---
 
+**Repository:** [https://github.com/CodersAcademy006/Synthetic-Dataset-Gen](https://github.com/CodersAcademy006/Synthetic-Dataset-Gen)
+
+**Maintainer:** Srijan Upadhayay
+
+---
+
 ## Overview
 
 A config-driven pipeline for generating, validating, and publishing synthetic datasets with **strict immutability**, **deterministic outputs**, and **full auditability**. Designed for ML teams that need reproducible training data without the compliance overhead of real data.
