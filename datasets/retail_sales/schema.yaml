@@ -1,0 +1,26 @@
+schema_version: 1.0
+columns:
+  sale_id:
+    type: integer
+    nullable: false
+  store_id:
+    type: integer
+    nullable: false
+  product_id:
+    type: integer
+    nullable: false
+  quantity:
+    type: integer
+    nullable: false
+    constraints:
+      min: 1
+      max: 20
+  sale_amount:
+    type: float
+    nullable: false
+    constraints:
+      min: 0.5
+      max: 500.0
+  sale_date:
+    type: datetime
+    nullable: false

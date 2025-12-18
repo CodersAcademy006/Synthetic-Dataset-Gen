@@ -1,0 +1,23 @@
+schema_version: 1.0
+columns:
+  listing_id:
+    type: integer
+    nullable: false
+  address:
+    type: string
+    nullable: false
+  price:
+    type: float
+    nullable: false
+    constraints:
+      min: 10000.0
+      max: 10000000.0
+  bedrooms:
+    type: integer
+    nullable: true
+    constraints:
+      min: 0
+      max: 10
+  listing_date:
+    type: datetime
+    nullable: false

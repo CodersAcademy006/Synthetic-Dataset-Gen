@@ -1,0 +1,7 @@
+name: finance_transactions
+domain: finance
+description: Synthetic transactional data for financial operations, including payments, transfers, and account activity.
+
+# Number of rows to generate per run (config-driven, no hardcoded defaults)
+row_count: 500000
+

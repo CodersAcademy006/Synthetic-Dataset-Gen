@@ -1,0 +1,24 @@
+schema_version: 1.0
+columns:
+  transaction_id:
+    type: integer
+    nullable: false
+  account_id:
+    type: integer
+    nullable: false
+  amount:
+    type: float
+    nullable: false
+    constraints:
+      min: 0.01
+      max: 10000.0
+  timestamp:
+    type: datetime
+    nullable: false
+  is_fraud:
+    type: boolean
+    nullable: false
+  merchant_category:
+    type: string
+    nullable: true
+

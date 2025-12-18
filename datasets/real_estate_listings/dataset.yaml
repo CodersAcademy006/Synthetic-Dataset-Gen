@@ -1,0 +1,4 @@
+name: real_estate_listings
+domain: real_estate
+description: Synthetic property listings for real estate analytics.
+row_count: 14000

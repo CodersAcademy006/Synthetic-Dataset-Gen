@@ -1,0 +1,20 @@
+schema_version: 1.0
+columns:
+  order_id:
+    type: integer
+    nullable: false
+  customer_id:
+    type: integer
+    nullable: false
+  order_date:
+    type: datetime
+    nullable: false
+  total_amount:
+    type: float
+    nullable: false
+    constraints:
+      min: 5.0
+      max: 5000.0
+  status:
+    type: string
+    nullable: true

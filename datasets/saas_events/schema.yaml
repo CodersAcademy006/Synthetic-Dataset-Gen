@@ -1,0 +1,18 @@
+schema_version: 1.0
+columns:
+  event_id:
+    type: integer
+    nullable: false
+  user_id:
+    type: integer
+    nullable: false
+  event_time:
+    type: datetime
+    nullable: false
+  event_type:
+    type: string
+    nullable: false
+  plan_tier:
+    type: string
+    nullable: true
+

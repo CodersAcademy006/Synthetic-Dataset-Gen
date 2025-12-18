@@ -1,0 +1,11 @@
+# Core dependencies for synthetic-data-platform
+# pandas: Data manipulation and IO (CSV/Parquet)
+pandas==2.1.4
+# numpy: Array operations, deterministic generation
+numpy==1.26.4
+# pyarrow: Parquet file support for pandas
+pyarrow==14.0.2
+# pyyaml: YAML config parsing
+pyyaml==6.0.1
+# kaggle: Kaggle API for dataset publishing (optional, only needed for publishing)
+kaggle==1.6.12

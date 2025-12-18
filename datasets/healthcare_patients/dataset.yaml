@@ -1,0 +1,4 @@
+name: healthcare_patients
+domain: healthcare
+description: Synthetic patient records for healthcare analytics.
+row_count: 15000

@@ -1,0 +1,4 @@
+name: social_media_posts
+domain: social_media
+description: Synthetic posts and interactions from a social media platform.
+row_count: 25000

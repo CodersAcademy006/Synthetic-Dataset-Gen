@@ -1,0 +1,4 @@
+name: education_assessments
+domain: education
+description: Synthetic student assessment results for educational institutions.
+row_count: 12000

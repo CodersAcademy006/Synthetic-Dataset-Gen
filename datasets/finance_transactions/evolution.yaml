@@ -1,0 +1,5 @@
+fraud_rate: 0.02
+
+missingness:
+  merchant_category: 0.25
+

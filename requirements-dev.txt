@@ -1,0 +1,7 @@
+# Development and testing dependencies
+# pytest: Unit and integration testing
+pytest==7.4.4
+# black: Code formatting
+black==23.11.0
+# isort: Import sorting
+isort==5.12.0

@@ -1,0 +1,17 @@
+schema_version: 1.0
+columns:
+  meter_id:
+    type: integer
+    nullable: false
+  timestamp:
+    type: datetime
+    nullable: false
+  energy_kwh:
+    type: float
+    nullable: false
+    constraints:
+      min: 0.0
+      max: 100.0
+  building_type:
+    type: string
+    nullable: true

@@ -1,0 +1,4 @@
+name: energy_consumption
+domain: energy
+description: Synthetic energy usage data for residential and commercial buildings.
+row_count: 18000

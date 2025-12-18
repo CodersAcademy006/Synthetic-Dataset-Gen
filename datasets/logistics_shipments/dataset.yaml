@@ -1,0 +1,4 @@
+name: logistics_shipments
+domain: logistics
+description: Synthetic shipment tracking data for logistics and supply chain.
+row_count: 22000

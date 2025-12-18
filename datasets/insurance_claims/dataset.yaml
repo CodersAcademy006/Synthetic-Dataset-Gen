@@ -1,0 +1,4 @@
+name: insurance_claims
+domain: insurance
+description: Synthetic insurance claim records for property and health.
+row_count: 16000

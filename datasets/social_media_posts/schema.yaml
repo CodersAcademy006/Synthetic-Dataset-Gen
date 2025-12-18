@@ -1,0 +1,19 @@
+schema_version: 1.0
+columns:
+  post_id:
+    type: integer
+    nullable: false
+  user_id:
+    type: integer
+    nullable: false
+  post_time:
+    type: datetime
+    nullable: false
+  content:
+    type: string
+    nullable: false
+  likes:
+    type: integer
+    nullable: true
+    constraints:
+      min: 0

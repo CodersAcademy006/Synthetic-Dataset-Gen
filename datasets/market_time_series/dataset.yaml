@@ -1,0 +1,6 @@
+name: market_time_series
+domain: finance
+description: Synthetic time series data for market prices, indices, and trading volumes.
+
+row_count: 5000
+

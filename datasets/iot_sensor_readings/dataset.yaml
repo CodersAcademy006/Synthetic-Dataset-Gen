@@ -1,0 +1,4 @@
+name: iot_sensor_readings
+domain: iot
+description: Synthetic sensor readings from IoT devices in a smart building.
+row_count: 20000

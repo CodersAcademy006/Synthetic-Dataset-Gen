@@ -1,0 +1,20 @@
+schema_version: 1.0
+columns:
+  patient_id:
+    type: integer
+    nullable: false
+  age:
+    type: integer
+    nullable: false
+    constraints:
+      min: 0
+      max: 100
+  gender:
+    type: string
+    nullable: false
+  diagnosis:
+    type: string
+    nullable: true
+  admission_date:
+    type: datetime
+    nullable: false

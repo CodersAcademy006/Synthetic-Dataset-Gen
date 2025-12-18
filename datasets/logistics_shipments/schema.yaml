@@ -1,0 +1,17 @@
+schema_version: 1.0
+columns:
+  shipment_id:
+    type: integer
+    nullable: false
+  origin:
+    type: string
+    nullable: false
+  destination:
+    type: string
+    nullable: false
+  ship_date:
+    type: datetime
+    nullable: false
+  delivery_date:
+    type: datetime
+    nullable: true

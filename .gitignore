@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data artifacts
+runs/
+artifacts/
+*.parquet
+*.csv
+*.json
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.log
+
+# Environment
+.env
+.env.*

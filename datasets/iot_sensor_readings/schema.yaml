@@ -1,0 +1,23 @@
+schema_version: 1.0
+columns:
+  sensor_id:
+    type: integer
+    nullable: false
+  timestamp:
+    type: datetime
+    nullable: false
+  temperature:
+    type: float
+    nullable: false
+    constraints:
+      min: -20.0
+      max: 50.0
+  humidity:
+    type: float
+    nullable: false
+    constraints:
+      min: 0.0
+      max: 100.0
+  occupancy:
+    type: boolean
+    nullable: true

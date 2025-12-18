@@ -1,0 +1,4 @@
+name: ecommerce_orders
+domain: ecommerce
+description: Synthetic order and fulfillment data for an e-commerce platform.
+row_count: 27000

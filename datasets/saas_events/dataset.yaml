@@ -1,0 +1,6 @@
+name: saas_events
+domain: technology
+description: Synthetic event stream data for SaaS product usage, user actions, and system events.
+
+row_count: 8000
+
