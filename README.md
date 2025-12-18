@@ -12,6 +12,13 @@
 
 ---
 
+
+**Repository:** [https://github.com/CodersAcademy006/Synthetic-Dataset-Gen](https://github.com/CodersAcademy006/Synthetic-Dataset-Gen)
+
+**Maintainer:** Srijan Upadhayay
+
+---
+
 ## Overview
 
 A config-driven pipeline for generating, validating, and publishing synthetic datasets with **strict immutability**, **deterministic outputs**, and **full auditability**. Designed for ML teams that need reproducible training data without the compliance overhead of real data.
@@ -73,8 +80,8 @@ A config-driven pipeline for generating, validating, and publishing synthetic da
 ### Installation
 
 ```bash
-git clone https://github.com/username/synthetic-data-platform.git
-cd synthetic-data-platform
+git clone https://github.com/CodersAcademy006/Synthetic-Dataset-Gen.git
+cd Synthetic-Dataset-Gen
 
 # Install dependencies
 pip install -r requirements.txt
@@ -339,6 +346,11 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
+
 **Built for ML teams who need reproducible, compliant synthetic data.**
+
+---
+
+**Prepared by Srijan Upadhayay**
 
 </div>
